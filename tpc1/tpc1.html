@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html>
+    <!-- CSS para formatar os elementosdo html -->
+    <!-- Cabeçalho -->
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Guloseimas  </title>
+         <!-- head -> utilizado no header da página, para posicionar a imagem, dimensiona-la 
+              body -> colocar o fundo de toda a página a cinzento e retirar as margens
+              a -> colocar a cor dos links visitado e nao visitados sempre a branco
+              corpo -> formatar uma das div que vai aparecer dentro do body para que apareça a branco e centrada no body
+              p -> formatar o texto do paragrafro 
+              h1 e h2 -> formatar o tipo da letra do header
+              foot -> formatar o footer
+              footcontent -> formatar o conteudo do footer para seguir o mesmo do corpo definido antes
+              -->
+        <style>
+        .head {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./back.jpg");
+                    height: 25%;
+                    background-position: center;
+                    background-size: cover;
+                    }
+        body, html {
+            height: 100%;
+            margin: 0;
+            background-color: grey;
+                   }
+        a:visited {
+            color: white;
+        }
+        a:link {
+            color: white;
+        }
+        .corpo {
+            margin-left: 10%;
+            margin-right: 10%;
+            background-color: white;
+        }
+        .par {
+            text-indent: 50px;
+            text-align: justify;
+            letter-spacing: 3px;
+            margin-left:5%;
+            margin-right:5%;
+        }
+
+        h1{
+       
+            text-indent: 50px;
+            letter-spacing: 3px;
+        }
+
+        .foot{
+            background-color: black;
+            color:white;
+            height: 11%;
+        }
+        .footcontent{
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top:1%;
+        }
+        .parfoot{
+            text-indent: 50px;
+            text-align: justify;
+            letter-spacing: 3px;
+            margin-left:5%;
+            margin-right:5%;
+            color:white;
+        }
+        h2 {
+            text-align: center;
+            text-indent: 50px;
+            letter-spacing: 3px;
+        }
+        </style>
+    </head>
+
+
+    <body>
+        <div class="head">
+            <table>
+            <tr>
+                <th>
+                    <td style="width:25%"> <center><p><a href=#gomas>Gomas</a></p></center></td>
+                </th>
+                <th>
+                    <td style="width:25%"><center><p><a href=#choco>Chocolates</a></p></center></td>
+                </th>
+                <th>
+                    <td style="width:25%"><center><p><a href=#pastilha>Pastilhas elásticas</a></p></center></td>
+                </th>
+                <th>
+                    <td style="width:25%"><center><p><a href=#chupa>Chupa-Chupa</a></p</center></td>
+                </th>                
+            </tr>
+            </table>
+        </div>
+
+        <div class=corpo align="center">
+            <h1 id="gomas">Gomas</h1>
+            <p class="par" align="justify" margin-left=10%> As gomas são um dos tipos de Guloseimas mais consumidos no mundo, a sua origem é atribuída ao Reino Unido.
+                A base da maioria das gomas é a gelatina e de uma maneira muito superficial o processo pode ser descrito 
+                como o aquecimento da gelatina e a sua mistura com corantes, açúcar assim como o sabor pretendido para a goma.
+                Por fim é necessário moldar a peça para a forma pretendida.
+                De seguida destacam-se alguns tipos que são caracterizados pelo seu formato final:
+            </p>
+            <ul>
+                <li> <p class="par">Urso</p> </li>
+                <li> <p class="par">Garrafa</p> </li>
+                <li> <p class="par">Anel </p></li>
+                <li> <p class="par">Minhoca</p> </li>
+            </ul>
+            <p><a href="https://pt.wikipedia.org/wiki/Chiclete"><button>Saber mais</button></a></p>
+            <a href="https://media.giphy.com/media/aKJcobXRuLEdO/giphy.gif">
+                <img src="./gomas.jpg" alt="goma" width="500" height="333" >
+            </a>
+            <p><a href=#><button>Voltar</button></a></p>
+
+            <h1 id="choco">Chocolates</h1>
+            <p class="par" align="left"> Os 4000 anos de história do chocolate começaram na Mesoamérica antiga, o atual México. Foi aqui que as primeiras plantas de cacau 
+                            foram encontradas. Os Olmecas, uma das primeiras civilizações da América Latina, foram os primeiros a transformar a planta de cacau 
+                            em chocolate. Estes bebiam o chocolate durante rituais e usavam-no como remédio.
+                            O chocolate permaneceu imensamente popular entre a aristocracia europeia. Os Reis e as classes superiores consumiam o chocolate devido 
+                            aos seus benefícios para a saúde, bem como pelo prazer.O chocolate ainda era nesta altura produzido à mão, o que queria dizer que era um 
+                            processo lento e laborioso. Mas, com a Revolução Industrial quase a chegar, tudo estava prestes a mudar.
+                            Em 1828, a invenção da máquina de prensar revolucionou a produção de chocolate. Este dispositivo inovador permitia espremer a manteiga de 
+                            cacau dos grãos torrados, deixando um pó de cacau fino.
+                            O pó foi então misturado com líquidos e colocado num molde, onde solidificou numa barra comestível de chocolate.E assim, nasceu a era moderna do chocolate.
+            </p>
+            <p><a href="https://www.magnumicecream.com/pt/artigos/artigos-de-gastronomia/a-historia-do-chocolate.html"><button>Saber mais</button></a></p>
+            <a href="https://media.giphy.com/media/3o6Yg8HrovTujAdIVa/giphy.gif">
+                <img src="./choco.jpg" alt="choco" width="500" height="333" >
+            </a>
+            <p><a href=#><button>Voltar</button></a></p>
+
+            <h1 id="pastilha">Pastilhas Elásticas</h1>
+            <p class="par" align="left">Tradicionalmente, são produzidas a partir do látex de uma árvore denominada chicle, um produto natural, ou a partir de borracha sintética conhecida 
+                            como poli-isobutileno, que é uma forma não vulcanizável da borracha butil (isopreno-isobutileno) utilizada para câmaras de ar de pneus de bicicletas,
+                            motos, carros etc. Às bases da goma, comumente são misturados açúcares, corantes e outros temperos, que são liberados no decorrer da mastigação, tornando-as 
+                            palatáveis e largamente consumíveis. 
+                            
+            </p>
+            <p><a href="https://pt.wikipedia.org/wiki/Chiclete"><button>Saber mais</button></a></p>
+            <a href="https://media.giphy.com/media/1AtN9VR6lwyFW/giphy.gif">
+                <img src="./chicla.jpg" alt="chicla" width="500" height="333" >
+            </a>
+            <p><a href=#><button>Voltar</button></a></p>
+
+            <h1 id="chupa">Chupa-Chupa</h1>
+            <p class="par" align="left"> A ideia de um doce comestível em uma vara é muito simples, e é provável que o pirulito foi inventado e reinventado várias vezes. A história dos primeiros 
+                            pirulitos na América parece ter sido distorcida ao longo do tempo. Existe alguma especulação que pirulitos foram inventados durante a Guerra Civil Americana (1861-1865). 
+                            Outros acreditam que alguma versão do pirulito tem sido em torno desde o início dos anos 1800. George Smith afirmou ser o primeiro a inventar o moderno pirulito, em 1908, 
+                            e registrou o nome lollipop em 1931.[3] Ele usou a idéia de colocar doces em uma vara para torná-lo mais fácil de comer e teria chamado os deleites após uma popular corrida
+                            de cavalos, Lolly Pop. O termo pode ter derivado do termo "lolly" (língua) e "pop" (tapa). As primeiras referências ao lollipop, em sua data de contexto moderno, dá-se à década
+                            de 1920.[4] Em alternativa, pode ser uma palavra de origem cigana estando relacionado com a tradição dos Roms de vender maçãs em uma vara. A maçã vermelha, na língua romani, é loli phaba.
+            </p>
+            <p><a href="https://pt.wikipedia.org/wiki/Pirulito"><button>Saber mais</button></a></p>
+            <a href="https://66.media.tumblr.com/a84bf81469fae39d8957fbdf91e35b38/tumblr_neggooUSm31tw1hfao5_500.gif">
+                <img src="./chupa.jpg" alt="chupa" width="500" height="333" >
+            </a>
+            <p><a href=#><button>Voltar</button></a></p>
+        </div>
+        <footer class="foot">
+            <div class="footcontent">
+                    <h2>Processamento e Representação de Informação</h2>
+                    <a href=" https://www.linkedin.com/in/otiagobaptista/"><p align="center">Powered by Tiago Baptista</p></a>
+            </div>
+            
+        
+       
+        </footer>
+    </body> 
+    
+</html>
+
