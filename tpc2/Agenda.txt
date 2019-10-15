@@ -1,0 +1,22 @@
+Ficha da Agenda :
+
+	(a) Seleccione todas as entradas de Braga (indicativo 253).  
+
+		R: //entrada[contains(./telefone,'253')]
+
+	(b) Seleccione todas as entradas que não são de Braga.
+
+		R: //entrada[not (contains(./telefone,'253'))]
+
+	(c) Seleccione todas as entradas de pessoas com nome contendo "José" ou "Maria".
+
+		R: //entrada[contains(./nome,'José') or contains(./nome,'Maria')]
+
+	(d) Seleccione os identificadores das entradas pertencentes a grupos. 
+
+		R: //grupo/entrada/@id
+
+
+	(e) Seleccione os identificadores das entradas que não são do tipo "pessoa". 
+
+		R: //entrada/@id[not(contains(../@tipo,'pessoa'))]

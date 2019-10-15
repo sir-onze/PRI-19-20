@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT manifesto (project,infos,team,abstract,deliver,date)>
+
+<!ELEMENT project (b)>
+<!ELEMENT infos (key,tittle,subtittle?,begin,end,supervisor)>
+<!ELEMENT key (header,content) >
+<!ELEMENT tittle (header,content) >
+<!ELEMENT subtittle (header,content) >
+<!ELEMENT begin (header,content) >
+<!ELEMENT end (header,content) >
+<!ELEMENT header (b) >
+<!ELEMENT content (#PCDATA) >
+<!ELEMENT supervisor (header,sup) >
+<!ELEMENT sup (#PCDATA) >
+<!ATTLIST sup
+             href CDATA #REQUIRED>
+
+<!ELEMENT team (header,membro+) >
+<!ELEMENT membro (name,mail) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT mail (ref) >
+
+<!ELEMENT abstract (header,paragrafo+) >
+<!ELEMENT paragrafo (#PCDATA|b|i|ref|img)* >
+<!ELEMENT b (#PCDATA) >
+<!ELEMENT i (#PCDATA) >
+<!ELEMENT ref (#PCDATA) >
+<!ATTLIST ref
+            href CDATA #REQUIRED >
+<!ELEMENT img (#PCDATA) >
+<!ATTLIST img
+          src CDATA #REQUIRED >
+
+<!ELEMENT deliver (header,ref*) >
+<!ELEMENT date (#PCDATA) >

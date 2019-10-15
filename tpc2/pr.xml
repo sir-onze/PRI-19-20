@@ -1,0 +1,71 @@
+<manifesto>
+    <project>
+        <b>Project Record</b>
+    </project>
+    <infos>
+        <key>
+            <header>
+                <b>KEY NAME:</b>
+            </header>
+            <content>TPC2</content>
+        </key>
+        <tittle>
+            <header>
+                <b>TITLE:</b>
+            </header>
+            <content>Trabalho de casa 2</content>
+        </tittle>
+        <subtittle>
+            <header>
+                <b>SUBTITLE:</b>
+            </header>
+            <content></content>
+        </subtittle>
+        <begin>
+            <header>
+                <b>BEGIN DATE:</b>
+            </header>
+            <content>Outubro 2019</content>
+        </begin>
+        <end>
+            <header>
+                <b>END DATE:</b>
+            </header>
+            <content>Outubro 2019</content>
+        </end>
+        <supervisor>
+            <header>
+                <b>SUPERVISOR:</b>
+            </header>
+            <sup href="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</sup>
+        </supervisor>
+    </infos>
+    <team>
+        <header>
+            <b>WorkTeam:</b>
+        </header>
+        <membro>
+            <name>Tiago Baptista</name>
+            <mail href="A75328@alunos.uminho.pt">A75328@alunos.uminho.pt</mail>
+        </membro>
+    </team>
+    <abstract>
+        <header>
+            <b>ABSTRACT:</b>
+        </header>
+        <paragrafo> Este documento refere-se à entrega do segundo trabalho de casa 
+                    da disciplina de <b>Processamento e Representação de Informação</b>.
+                    Trabalho este centrado no desenvolvimento das capacidades relacionadas
+                    com dtd, assim como da familiarização com <i>XPath</i>.</paragrafo>
+    </abstract>
+    <deliver>
+        <header>
+            <b>Deliverables:</b>
+        </header>
+        <ref href="./pr.dtd"></ref>
+        <ref href="./pr.xml"></ref>
+        <ref href="Agenda.txt"></ref>
+        <ref href="Arquiositios.txt"></ref>
+    </deliver>
+    <date>09-09-2002</date>
+</manifesto>
