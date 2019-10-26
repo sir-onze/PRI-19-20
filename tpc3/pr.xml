@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/macz/Desktop/4ano/PLC/pri/tp3/pr_oficial.dtd">
+<pr>
+    <meta>
+        <keyname>PRI-2019-TPC3 </keyname>
+        <title>Transformações usando XSLT</title>
+        <subtitle></subtitle>
+        <bdate>Outubro 2019</bdate>
+        <edate>Outubro 2019</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>1.</identifier>
+            <name>Tiago João Fernandes Baptista</name>
+            <email>A75328@alunos.uminho.pt</email>
+            <photo path="../tiago.jpg"/>
+        </member>
+        
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho teve como objetivo desenvolver as competências lecionadas na aula relativamente ao <i>XSL</i>. 
+        </p>
+        <p>
+            Para tal foi pedido o desenvolvimento de uma <i>stylesheet</i> capaz de transformar o <i>XML</i> do manifesto numa página <i>HTML</i> e efetuar o mesmo para o caso dos arqueosítios. 
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="../pr.xml">pr.xml</deliverable>
+        <deliverable path="../pr.xsl">pr.xsl</deliverable>
+        <deliverable path="./pr.html">pr.html</deliverable>
+        <deliverable path="../arq.xml">arq.xml</deliverable>
+        <deliverable path="../arq.xsl">arq.xsl</deliverable>
+        <deliverable path="../index.html">index.html</deliverable>
+        
+    </deliverables>
+</pr>
