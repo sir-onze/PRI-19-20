@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    .w3-container
+        h1 Remoção de um Filme
+        label Identificador:
+        input(type="text" name="id")
+        form.w3-container(action="/filmes/apagar/"  method="delete")
+            input.w3-input(type="submit" value="Enviar")
