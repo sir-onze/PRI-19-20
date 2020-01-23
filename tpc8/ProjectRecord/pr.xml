@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <meta>
+        <keyname>PRI19_TPC8</keyname>
+        <title>Aplicação web para gestão de ficheiros</title>
+        <subtitle>TPC número oito da cadeira de Processamento e Representação de Informação</subtitle>
+        <bdate>17-11-2019</bdate>
+        <edate>24-11-2019</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </meta>
+    <workteam>
+        <member>
+            <identifier>A75328</identifier>
+            <name>Tiago João Fernandes Baptista</name>
+            <email>a75328@alunos.uminho.pt</email>
+            <photo path="tiago.jpg"/>
+        </member>
+    </workteam>
+    <abstract>
+        <p> 
+            Para este trabalho de casa foi proposta a criação uma <b>aplicação</b> em <i>NodeJS</i> capaz de receber pedidos
+            <i>GET</i> e de responder a página pretendida pelo cliente e a <i>POST</i> de maneira a permitir a inserção de ficheiros 
+            na base de dados. Sendo que a <i>web app</i> se alimenta de uma <i>API</i> de dados de maneira a satisfazer a arquitetura estudada nas aulas.
+        </p>
+        <p>
+            O servidor criado corre na porta <b>3012</b> e responde a pedidos com a seguinte formatação de exemplo: <u>localhost:5018</u>.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="../tpc8/">Gestão de Ficheiros</deliverable>
+        <deliverable path="pr.xml">Project Record XML</deliverable>
+        <deliverable path="pr.xsl">Project Record XSL</deliverable>
+        <deliverable path="pr.html">Project Record</deliverable>
+    </deliverables>
+</pr>
